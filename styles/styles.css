@@ -12,12 +12,33 @@
   justify-content: center;
 }
 
+.menu {
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+a {
+  font-family: "Poppins";
+  text-decoration: none;
+  color: white;
+  margin-right: 100px;
+}
+
+a:hover {
+  border-bottom: 1px solid orange;
+}
+
 .content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100vw;
 }
 
 #perfil {

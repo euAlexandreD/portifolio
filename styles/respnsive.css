@@ -1,0 +1,248 @@
+@media (max-width: 1200px) {
+  #perfil {
+    width: 400px;
+    height: 400px;
+  }
+
+  #img-about {
+    width: 300px;
+    height: 300px;
+  }
+
+  .text-about {
+    width: 600px;
+    font-size: 20px;
+  }
+
+  .habilites-descriptions {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 960px) {
+  .header {
+    background-position: center;
+    background-size: cover;
+  }
+
+  a {
+    margin-right: 60px;
+  }
+
+  #perfil {
+    width: 300px;
+    height: 300px;
+  }
+
+  .title-one {
+    font-size: 50px;
+  }
+
+  .my-name {
+    font-size: 40px;
+  }
+
+  #img-about {
+    width: 250px;
+    height: 250px;
+  }
+
+  .text-about {
+    width: 400px;
+    font-size: 15px;
+  }
+
+  .html-content,
+  .css-content,
+  .javascript-content {
+    width: 270px;
+    height: 270px;
+
+    p {
+      width: 250px;
+      height: 87px;
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  a {
+    margin-right: 20px;
+  }
+
+  .my-name {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .title-two {
+    font-size: 20px;
+  }
+
+  .about-me {
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-about {
+    text-align: center;
+  }
+
+  .container-habilites {
+    .habilites {
+      font-size: 40px;
+    }
+  }
+
+  .habilites-descriptions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .html-content,
+  .css-content,
+  .javascript-content {
+    width: 365px;
+    height: 355px;
+    margin-bottom: 20px;
+
+    p {
+      width: 255px;
+      height: 87px;
+      text-align: center;
+      font-family: "Poppins";
+      font-size: 14px;
+      font-weight: 400;
+      color: white;
+    }
+  }
+
+  .projects {
+    font-size: 40px;
+  }
+
+  .contact {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .input-name,
+  .input-email,
+  textarea {
+    border: none;
+    margin-bottom: 20px;
+    width: 500px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 15px;
+    background: #202020;
+    color: white;
+    resize: none;
+    outline: none;
+  }
+
+  .submit {
+    width: 500px;
+  }
+}
+
+@media (max-width: 390px) {
+  a {
+    font-size: 15px;
+    margin-right: 20px;
+  }
+
+  #perfil {
+    width: 200px;
+    height: 200px;
+  }
+
+  .title-one {
+    font-size: 40px;
+  }
+
+  .my-name {
+    font-size: 20px;
+  }
+
+  .about-me {
+    h1 {
+      font-size: 30px;
+    }
+  }
+
+  .text-about {
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .container-habilites {
+    .habilites {
+      font-size: 30px;
+    }
+  }
+  .html-content,
+  .css-content,
+  .javascript-content {
+    width: 300px;
+    height: 300px;
+  }
+
+  #text-javascript {
+    width: 240px;
+    font-size: 12px;
+  }
+
+  .projects {
+    font-size: 30px;
+  }
+
+  .contact {
+    font-size: 30px;
+  }
+
+  .input-name,
+  .input-email,
+  textarea {
+    width: 350px;
+  }
+
+  .submit {
+    width: 350px;
+  }
+}
+
+@media (max-width: 445px) {
+  .title-one {
+    font-size: 40px;
+  }
+  .my-name {
+    font-size: 25px;
+  }
+
+  .input-name,
+  .input-email,
+  textarea {
+    border: none;
+    margin-bottom: 20px;
+    width: 400px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 15px;
+    background: #202020;
+    color: white;
+    resize: none;
+    outline: none;
+  }
+
+  .submit {
+    width: 400px;
+  }
+}
