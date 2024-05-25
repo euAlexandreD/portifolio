@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../styles/globalstyles.css" />
     <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/respnsive.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,6 +16,12 @@
     <title>Alexandre Portella da Silva</title>
   </head>
   <body>
+    <nav class="menu">
+      <a href="#sobre">Sobre mim</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contatos">Contatos</a>
+    </nav>
     <header class="header">
       <div class="content">
         <img id="perfil" src="../assets/perfil.jpg" alt="Imagem de perfil" />
@@ -24,7 +31,7 @@
       </div>
     </header>
     <main>
-      <section class="about-me">
+      <section id="sobre" class="about-me">
         <div>
           <h1>SOBRE MIM</h1>
         </div>
@@ -42,7 +49,7 @@
           </p>
         </div>
       </section>
-      <section class="container-habilites">
+      <section id="habilidades" class="container-habilites">
         <div class="title-habilites">
           <h1 class="habilites">HABILIDADES</h1>
         </div>
@@ -66,7 +73,7 @@
           <div class="javascript-content">
             <img src="../assets/JSICON.png" alt="JavaScript" />
             <h1 class="title-javascript">JavaScript</h1>
-            <p>
+            <p id="text-javascript">
               Linguegem de programacao aplamente utilizada tanto no front-end
               quando no back-end. Responsvel por adicionar logica e dinamismo em
               aolicacoes. Amplo dominio dessa linguagem.
@@ -74,7 +81,7 @@
           </div>
         </div>
       </section>
-      <section class="section-projects">
+      <section id="projetos" class="section-projects">
         <div>
           <h1 class="projects">PROJETOS</h1>
         </div>
@@ -82,7 +89,7 @@
         <!--terminar essa section de projetos-->
       </section>
 
-      <section class="contacts">
+      <section id="contatos" class="contacts">
         <div>
           <h1 class="contact">ENTRE EM CONTATO</h1>
         </div>
