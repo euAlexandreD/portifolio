@@ -17,6 +17,10 @@
   .habilites-descriptions {
     gap: 20px;
   }
+
+  /* .button-tudum {
+    font-size: 0px;
+  } */
 }
 
 @media (max-width: 960px) {

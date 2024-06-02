@@ -279,3 +279,36 @@ textarea:focus {
   opacity: 0.4;
   background-color: red;
 }
+
+footer {
+  background-color: #111111;
+}
+
+.top {
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.tudum {
+  position: fixed;
+  top: 80px;
+  left: 20px;
+}
+
+.button-tudum {
+  background: transparent;
+  font-size: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
