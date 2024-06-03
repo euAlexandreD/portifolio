@@ -312,3 +312,19 @@ html,
 body {
   overflow-x: hidden;
 }
+
+.bg {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+}
+
+.button-bg {
+  height: 30px;
+  background-color: blue;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
