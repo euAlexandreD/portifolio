@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 200ms ease-in-out;
 }
 
 .menu {
@@ -327,4 +328,19 @@ body {
   color: white;
   padding: 10px;
   cursor: pointer;
+}
+
+.header-two {
+  background: url("../assets/7_Navegando.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: color;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 200ms ease-in-out;
 }

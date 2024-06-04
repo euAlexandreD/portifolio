@@ -8,7 +8,12 @@ buttonTudum.addEventListener("click", function () {
 const buttonBg = document.querySelector(".button-bg");
 
 buttonBg.addEventListener("click", () => {
-  const header = document.querySelector(".header");
+  const header = document.querySelector("#cabecalho");
+  header.classList.add("header-two");
 
-  header.style.background = "url(../assets/7_Navegando.gif)";
+  buttonBg.addEventListener("click", function () {
+    const header = document.querySelector("#cabecalho");
+    header.classList.remove("header-two");
+  });
+  return;
 });
